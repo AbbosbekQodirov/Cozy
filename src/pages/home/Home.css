@@ -1,0 +1,93 @@
+.colors {
+    display: flex;
+    gap: 10px;
+}
+
+.colors span {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.hero .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px;
+}
+
+.hero_info{
+    width: 500px;
+}
+
+.navigate{
+    margin-bottom: 20px;
+}
+.location{
+    margin-bottom: 50px;
+}
+
+.product_title{
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.desc, .colors{
+    margin-bottom: 30px;
+}
+
+.add_Cart{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+.count{
+    display: flex;
+    align-items: center;
+    border: 1px solid #A2A3B1;
+    justify-content: space-between;
+    border-radius: 5px;
+
+}
+
+.count span{
+    padding: 0px 15px;
+    font-size: 24px;
+}
+.minus, .plus{
+    font-size: 38px !important;
+    cursor: pointer;
+}
+
+.add_Cart button{
+    padding: 10px 30px;
+    background-color: #3AA39F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.social{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px 0px 0px;
+}
+.social div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.like {
+    color: #3AA39F;
+    font-weight: 500;
+}
+
+.social_links a{
+    color: black;
+}
