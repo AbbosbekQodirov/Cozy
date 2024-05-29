@@ -4,10 +4,12 @@ function Navbar() {
   return (
     <nav>
       <div className="container">
-        <h1>Navbar</h1>
+        <div className="logo">
+          <img src="./imgs/logo.png" alt="" />
+        </div>
       </div>
     </nav>
-  )
+  );
 }
 
 export default Navbar
